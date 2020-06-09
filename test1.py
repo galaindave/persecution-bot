@@ -1,7 +1,7 @@
 import discord
-from discord.ext import commads
+from discord.ext import commands
 
-bot = commads.Bot(commads_prefix='[')
+bot = commands.Bot(commands_prefix='[')
 
 
 @bot.event
